@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="TP5">
+  <ClassDiagramComponents>
+    <Class name="Arreglos" package="tp5" visibility="public" xPosition="49.0" yPosition="77.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="sumarLista" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int[]" name="lista"/>
+        </Method>
+        <Method name="buscarMayor" returnType="void" visibility="public" isStatic="true">
+          <Argument type="int[][]" name="bidimensional"/>
+        </Method>
+        <Method name="cuentaVocales" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="variable"/>
+        </Method>
+        <Method name="cuentaCaracter" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="palabra"/>
+          <Argument type="char" name="caracter"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="PruebaArreglos" package="tp5" visibility="public" xPosition="432.0" yPosition="77.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
